@@ -23,7 +23,7 @@ if __name__ == '__main__':
         with urllib.request.urlopen(proxy_api) as url:
             s = url.read()
             proxy = (s.strip().decode("utf-8"))
-            # print(x, ".", "Proxy")
+            print(x, ".", proxy)
     else:
         print("Finally finished!")
 
